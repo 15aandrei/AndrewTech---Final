@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Gamer - AndrewTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light-theme.css" id="theme-style" disabled>
+    <meta name="description" content="Premium gaming PC with Intel Core i9-13900K and NVIDIA RTX 4090 for 4K gaming at ultra settings">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/AndrewTech-Logo.png" alt="AndrewTech Logo"></a>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="motto">
+                <h3>The Future of PC Building Websites</h3>
+            </div>
+            <button class="theme-toggle">🌙 Dark Mode</button>
+            <div class="search">
+                <form>
+                    <label for="search" class="sr-only">Search components</label>
+                    <input type="text" id="search" placeholder="Search components...">
+                </form>
+            </div>
+            <button class="mobile-menu-toggle">☰ Menu</button>
+            <div class="navigation">
+                <nav>
+                    <a href="#">NEW</a>
+                    <a href="#">GAMING PC'S</a>
+                    <a href="#">OFFICE PC'S</a>
+                    <a href="#">CPU</a>
+                    <a href="#">GPU</a>
+                    <a href="#">COMPONENTS</a>
+                    <a href="#">PERIPHERALS</a>
+                    <a href="#">ACCESSORIES</a>
+                    <a href="tutorial.html">TUTORIALS</a>
+                    <a href="#">DRIVER'S</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="product-detail">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="images/extreme-gamer-main.jpg" alt="Extreme Gamer PC Front View" id="mainImage">
+                    </div>
+                    <div class="thumbnail-container">
+                        <img src="images/extreme-gamer-1.jpg" alt="Side view" class="thumbnail">
+                        <img src="images/extreme-gamer-2.jpg" alt="Interior view" class="thumbnail">
+                        <img src="images/extreme-gamer-3.jpg" alt="RGB lighting" class="thumbnail">
+                        <img src="images/extreme-gamer-4.jpg" alt="Back view" class="thumbnail">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="breadcrumb">
+                        <a href="index.html">Home</a> > <a href="#">Gaming PCs</a> > Extreme Gamer
+                    </div>
+                    <h1>Extreme Gamer</h1>
+                    <div class="price">$1,999.99</div>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(42 reviews)</span>
+                    </div>
+                    <div class="availability">In Stock (Ships in 1-2 business days)</div>
+                    
+                    <div class="description">
+                        <p>Experience unparalleled gaming performance with our Extreme Gamer PC. Built for enthusiasts who demand the best, this powerhouse delivers buttery smooth gameplay at maximum settings in 4K resolution.</p>
+                        <ul class="key-features">
+                            <li>Ready for 4K/1440p gaming at ultra settings</li>
+                            <li>Overclockable CPU for maximum performance</li>
+                            <li>Advanced liquid cooling system</li>
+                            <li>Customizable RGB lighting</li>
+                            <li>Pre-tested and optimized for stability</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="config-options">
+                        <h3>Configuration Options</h3>
+                        <div class="option">
+                            <label for="ram">RAM:</label>
+                            <select id="ram">
+                                <option value="32gb">32GB DDR5 6000MHz (+$0)</option>
+                                <option value="64gb">64GB DDR5 6000MHz (+$200)</option>
+                            </select>
+                        </div>
+                        <div class="option">
+                            <label for="storage">Storage:</label>
+                            <select id="storage">
+                                <option value="2tb+4tb">2TB NVMe SSD + 4TB HDD (+$0)</option>
+                                <option value="4tb">4TB NVMe SSD (+$300)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary">Add to Cart</button>
+                        <button class="btn btn-outline">Add to Wishlist</button>
+                    </div>
+                    
+                    <div class="delivery-info">
+                        <div class="delivery-option">
+                            <span class="icon">🚚</span>
+                            <span>Free shipping on all orders</span>
+                        </div>
+                        <div class="delivery-option">
+                            <span class="icon">🔒</span>
+                            <span>2-year warranty included</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-tabs">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="specs">Specifications</button>
+                    <button class="tab-btn" data-tab="reviews">Reviews</button>
+                    <button class="tab-btn" data-tab="support">Support</button>
+                </div>
+                
+                <div class="tab-content active" id="specs">
+                    <div class="specs-grid">
+                        <div class="specs-category">
+                            <h4>Processor</h4>
+                            <ul>
+                                <li><strong>CPU:</strong> Intel Core i9-13900K</li>
+                                <li><strong>Cores:</strong> 24 (8P + 16E)</li>
+                                <li><strong>Threads:</strong> 32</li>
+                                <li><strong>Base Clock:</strong> 3.0 GHz</li>
+                                <li><strong>Boost Clock:</strong> 5.8 GHz</li>
+                                <li><strong>Cache:</strong> 36MB</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="specs-category">
+                            <h4>Graphics</h4>
+                            <ul>
+                                <li><strong>GPU:</strong> NVIDIA RTX 4090</li>
+                                <li><strong>VRAM:</strong> 24GB GDDR6X</li>
+                                <li><strong>Boost Clock:</strong> 2520 MHz</li>
+                                <li><strong>Outputs:</strong> 3x DisplayPort, 1x HDMI</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="specs-category">
+                            <h4>Memory</h4>
+                            <ul>
+                                <li><strong>RAM:</strong> 32GB DDR5 6000MHz</li>
+                                <li><strong>Slots:</strong> 4 DIMM</li>
+                                <li><strong>Max Supported:</strong> 128GB</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="specs-category">
+                            <h4>Storage</h4>
+                            <ul>
+                                <li><strong>Primary:</strong> 2TB NVMe SSD</li>
+                                <li><strong>Secondary:</strong> 4TB HDD</li>
+                                <li><strong>M.2 Slots:</strong> 3 available</li>
+                                <li><strong>SATA Ports:</strong> 6 available</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="reviews">
+                    <div class="review-form">
+                        <h4>Write a Review</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="review-name">Name</label>
+                                <input type="text" id="review-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="review-rating">Rating</label>
+                                <select id="review-rating" required>
+                                    <option value="">Select rating</option>
+                                    <option value="5">★★★★★</option>
+                                    <option value="4">★★★★☆</option>
+                                    <option value="3">★★★☆☆</option>
+                                    <option value="2">★★☆☆☆</option>
+                                    <option value="1">★☆☆☆☆</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="review-text">Review</label>
+                                <textarea id="review-text" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Submit Review</button>
+                        </form>
+                    </div>
+                    
+                    <div class="review-list">
+                        <div class="review">
+                            <div class="review-header">
+                                <span class="review-author">John D.</span>
+                                <span class="review-date">March 15, 2025</span>
+                                <span class="review-rating">★★★★★</span>
+                            </div>
+                            <div class="review-body">
+                                <p>This PC is an absolute beast! I can run Cyberpunk 2077 at max settings with ray tracing at 4K and still get over 100fps. The build quality is excellent and the RGB lighting looks amazing.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="review">
+                            <div class="review-header">
+                                <span class="review-author">Sarah M.</span>
+                                <span class="review-date">February 28, 2025</span>
+                                <span class="review-rating">★★★★☆</span>
+                            </div>
+                            <div class="review-body">
+                                <p>Great performance overall. The only reason I'm giving 4 stars is because the cables could be managed a bit better inside the case. But performance-wise, it's flawless.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="support">
+                    <div class="support-options">
+                        <div class="support-option">
+                            <h4>Warranty Information</h4>
+                            <p>All AndrewTech systems come with a 2-year limited warranty covering parts and labor. Extended warranty options are available at checkout.</p>
+                        </div>
+                        
+                        <div class="support-option">
+                            <h4>Technical Support</h4>
+                            <p>Our support team is available 24/7 to assist with any technical questions or issues. Contact us via phone, email, or live chat.</p>
+                        </div>
+                        
+                        <div class="support-option">
+                            <h4>Documentation</h4>
+                            <ul>
+                                <li><a href="#">User Manual</a></li>
+                                <li><a href="#">Driver Downloads</a></li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-products">
+                <h3>You May Also Like</h3>
+                <div class="pc-grid">
+                    <div class="pc-card">
+                        <img src="images/rgb-beast.jpg" alt="RGB Beast PC">
+                        <div class="pc-info">
+                            <h3>RGB Beast</h3>
+                            <p>Performance with stunning lighting</p>
+                            <div class="pc-price">$1,799.99</div>
+                            <a href="product-rgb-beast.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="pc-card">
+                        <img src="images/liquid-cooled.jpg" alt="Liquid Cooled PC">
+                        <div class="pc-info">
+                            <h3>Liquid Cooled</h3>
+                            <p>Custom water cooling for maximum performance</p>
+                            <div class="pc-price">$2,499.99</div>
+                            <a href="product-liquid-cooled.html" class="btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Gaming PCs</a></li>
+                        <li><a href="#">Office PCs</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Peripherals</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><span>FB</span></a>
+                        <a href="#" aria-label="Twitter"><span>TW</span></a>
+                        <a href="#" aria-label="Instagram"><span>IG</span></a>
+                        <a href="#" aria-label="YouTube"><span>YT</span></a>
+                    </div>
+                    <div class="newsletter">
+                        <h5>Subscribe to our newsletter</h5>
+                        <form>
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 AndrewTech. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
